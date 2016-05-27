@@ -1,0 +1,11 @@
+// Compassの使用
+@import "compass";
+
+// Reset.cssのインポート
+@import "compass/reset";
+
+// 各種Sassファイルの読込
+@import "config";
+@import "foundation";
+@import "layout";
+@import "page/page";

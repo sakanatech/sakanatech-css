@@ -1,0 +1,38 @@
+// charsetの指定
+@charset "utf-8";
+
+// fontの読込
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+// normalizeの読込 GitHub(http://necolas.github.com/normalize.css/)
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css);
+
+// import mixin
+.clearfix {
+	display: block;
+	*zoom: 1;
+}
+
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+
+.inline-block {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+// メインカラーコードの変数化
