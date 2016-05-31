@@ -5,34 +5,11 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 
-// normalizeの読込 GitHub(http://necolas.github.com/normalize.css/)
-@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css);
+// 変数の定義
 
-// import mixin
-.clearfix {
-	display: block;
-	*zoom: 1;
-}
-
-.clearfix:after {
-	display: block;
-	visibility: hidden;
-	font-size: 0;
-	height: 0;
-	clear: both;
-	content: ".";
-}
-
-.inline-block {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-}
-
-.ellipsis {
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
-}
-
-// メインカラーコードの変数化
+// 文字色に関する変数
+$base_text_color : #333;
+$base_link_color : #1487bd;
+$base_link_color_hover : #0f5373;
+$base_link_color_visited : #789dae;
+$base_link_color_keyword : #454545;
