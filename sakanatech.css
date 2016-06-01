@@ -805,14 +805,14 @@ dl {
 
 #menu {
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 0 0 3px;
 	padding: 0;
 }
 
 #menu li {
 	display: block;
 	float: left;
-	width: 12.5%;
+	width: 16.6%;
 	margin: 0;
 	padding: 0;
 }
@@ -857,10 +857,10 @@ dl {
 
 #menu li a {
 	display: block;
-	padding: 8px 0 8px;
+	padding: 12px 0 12px;
 	background-color: #18304b;
 	color: #FEFEFE;
-	font-size: 0.8em;
+	font-size: 1em;
 	text-align: center;
 	text-decoration: none;
 	border-right: 1px solid #BBB;
@@ -902,7 +902,7 @@ dl {
 	#toggle a {
 		display: block;
 		position: relative;
-		padding: 10px 0 10px;
+		padding: 16px 0 16px;
 		border-bottom: 1px solid #DDD;
 		color: #FEFEFE;
 		text-align: center;
