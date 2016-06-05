@@ -687,8 +687,11 @@ a#homelink {
 
 h3 {
 	padding: .5em .75em;
-	border: 1px solid #ccc;
-	border-left: solid 6px #18304b;
+	text-align: center;
+    border-left: solid 6px #18304b;
+    border-right: 6px solid #18304b;
+    border-top: solid 1px #18304b;
+    border-bottom: solid 1px #18304b;
 	background-color: #F3F3F3;
 }
 
@@ -706,6 +709,19 @@ h5 {
 h6 {
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
+}
+
+/**************************************************************
+  セルフレコメンド用
+**************************************************************/
+
+.selfreccomend{
+	border:solid 1px #18304b;
+	border-radius:6px;
+}
+
+.selfreccomend b{
+	text-align:center;
 }
 
 
