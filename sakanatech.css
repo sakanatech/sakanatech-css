@@ -720,8 +720,17 @@ h6 {
 	border-radius:6px;
 }
 
+.sr-title {
+    text-align: center;
+}
+
 .selfreccomend b{
 	text-align:center;
+	font-size:1.1em;
+}
+
+.selfreccomend i {
+    padding-right: 8px;
 }
 
 
