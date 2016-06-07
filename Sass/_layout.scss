@@ -1,0 +1,20 @@
+/* ヘッダ（グローバルヘッダ）
+  グローバルヘッダの中はiframeですが、
+  #globalheader-container に背景色や文字色を指定することでirameの中にも色が反映されます。
+*/
+#globalheader-container {
+	background-color: #333;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/***
+	BlogTitle
+***/
+#blog-title-inner {
+	display: none; // ロゴ表示のため非表示
+}
+
